@@ -1,0 +1,39 @@
+body,
+nav,
+header,
+main,
+article,
+aside,
+footer {
+  padding: 0 1rem;
+}
+
+:root {
+  font-size: 16px;
+  --bg-level-1: #1C1F22;
+  --bg-level-2: #9aa3ac;
+  --bg-level-3: #bcc2c8;
+  --bg-level-4: #dde0e3;
+}
+
+body {
+  background-color: var(--bg-level-1);
+  color: var(--bg-level-1);
+  line-height: 1.5;
+  padding: 0 2rem;
+}
+
+nav,
+header,
+main,
+footer {
+  background-color: var(--bg-level-2);
+}
+
+article {
+  background-color: var(--bg-level-3);
+}
+
+aside {
+  background-color: var(--bg-level-4);
+}
